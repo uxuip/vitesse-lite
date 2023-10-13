@@ -9,12 +9,12 @@ const router = useRouter()
     <p>
       Hi, {{ params.name }}
     </p>
-    <p text-sm op50>
+    <p op50 text-sm>
       <em>Dynamic route!</em>
     </p>
 
     <div>
-      <button m-3 mt-8 text-sm btn @click="router.back()">
+      <button class="m-3 mt-8 text-sm btn" @click="router.back()">
         Back
       </button>
     </div>
