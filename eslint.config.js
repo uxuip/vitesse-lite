@@ -1,8 +1,13 @@
-import antfu from '@antfu/eslint-config'
+import { vueConfig } from '@uxuip/eslint-config'
 
-export default antfu(
+export default vueConfig(
   {
     unocss: true,
     formatters: true,
+  },
+  {
+    rules: {
+      'unocss/order-attributify': 'off',
+    },
   },
 )
