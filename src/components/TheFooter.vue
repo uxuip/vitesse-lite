@@ -10,8 +10,6 @@
       target="_blank"
       title="GitHub"
       i-carbon-logo-github
-      i-carbon-logo-github
-      icon-btn
       icon-btn
     />
   </nav>
