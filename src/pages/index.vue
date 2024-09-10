@@ -17,7 +17,7 @@ function go() {
   <div>
     <div i-carbon-campsite inline-block text-4xl />
     <p>
-      <a href="https://github.com/antfu/vitesse-lite" rel="noreferrer" target="_blank">
+      <a href="https://github.com/antfu-collective/vitesse-lite" rel="noreferrer" target="_blank">
         Vitesse Lite
       </a>
     </p>
@@ -37,7 +37,7 @@ function go() {
     <div>
       <button
         :disabled="!name"
-        class="m-3 text-sm btn"
+        class="btn m-3 text-sm"
         @click="go"
       >
         Go

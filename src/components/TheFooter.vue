@@ -5,11 +5,13 @@
     </button>
 
     <a
-      href="https://github.com/antfu/vitesse-lite"
+      href="https://github.com/antfu-collective/vitesse-lite"
       rel="noreferrer"
       target="_blank"
       title="GitHub"
       i-carbon-logo-github
+      i-carbon-logo-github
+      icon-btn
       icon-btn
     />
   </nav>
