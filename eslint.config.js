@@ -4,6 +4,7 @@ export default vueConfig(
   {
     unocss: true,
     formatters: true,
+    pnpm: true,
   },
   {
     rules: {
